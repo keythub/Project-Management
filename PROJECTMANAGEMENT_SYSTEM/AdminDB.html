@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="AdminDB.css">
+    <!--BOXICON-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="sklogo.png" alt="logo">
+                </span>
+
+                <div class="text header-text">
+                    <span class="name">Sangguniang Kabataan</span>
+                    <span class="loc">Anabu 1-B</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+            <div class="menu-bar">
+                <ul class="menu-links">
+                    <li class="navlinks">
+                        <a href="AdminDB.html" target="_parent">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="menu-links">
+                    <li class="navlinks">
+                        <a href="AdminPR.html" target="_parent">
+                            <i class='bx bxs-book-content icon' ></i>
+                            <span class="text nav-text">Project</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="menu-links">
+                    <li class="navlinks">
+                        <a href="AdminPM.html" target="_parent">
+                            <i class='bx bxs-chart icon' ></i>
+                            <span class="text nav-text">Performance</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="menu-links">
+                    <li class="navlinks">
+                        <a href="AdminREP.html" target="_parent"">
+                            <i class='bx bxs-report icon' ></i>
+                            <span class="text nav-text">Reports</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="menu-links">
+                    <li class="navlinks">
+                        <a href="AdminNOTIF.html" target="_parent">
+                            <i class='bx bx-bell icon' ></i>
+                            <span class="text nav-text">Notification</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>    
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class='bx bx-log-out icon' ></i>
+                        <span class="text nav-text">Log Out</span>
+                    </a>
+                </li>
+            </div>
+        </div>
+        
+    </nav>
+    <script src="AdminDB.js"></script>
+
+    <div class="main--content">
+        <div class="header--wrapper">
+            <div class="header--tittle">
+               <h2>Dashboard</h2>
+            </div>
+            <div class="admin--info">
+                <div class="search--box">
+                    <i class='bx bx-search-alt-2'></i>
+                    <input type="text>" placeholder="search" />
+                </div>
+            </div>
+            <img src="Adminpicture.jpg"alt="">
+        </div>
+        
+        <div class="container">
+            <div class="card for-approval">
+                <h3>Approval Projects</h3>
+                <p>Projects awaiting approval from the management.</p>
+                <button>View Details</button>
+            </div>
+    
+            <div class="card ongoing">
+                <h3>On-going Projects</h3>
+                <p>Projects currently in progress.</p>
+                <button>View Details</button>
+            </div>
+    
+            <div class="card completed">
+                <h3>Completed Projects</h3>
+                <p>Projects successfully finished.</p>
+                <button>View Details</button>
+            </div>
+    
+            <div class="card rejected">
+                <h3>Rejected Projects</h3>
+                <p>Projects that were not approved.</p>
+                <button>View Details</button>
+            </div>
+        </div>
+        <div class="notification-container">
+            <div class="notification-card">
+                <h2>Notifications</h2>
+            </div>
+    </div>
+    
+    
+</body>
+</html>
